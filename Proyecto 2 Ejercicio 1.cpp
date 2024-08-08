@@ -82,7 +82,7 @@ void ingresodatos()
     	cin >> nombre[z];
 		setlocale(LC_CTYPE,"spanish");
 	   SetConsoleTextAttribute (hConsoleHandle, 15);
-		gotoxy(12,10);cout << " Ingrese el año de nacimiento del estudiante:  " ;
+		gotoxy(12,10);cout << " Ingrese el aÃ±o de nacimiento del estudiante:  " ;
        cin >> year[z];
 		setlocale( LC_ALL, "C" );
 	   SetConsoleTextAttribute (hConsoleHandle, 15);
@@ -186,7 +186,7 @@ void resultados()
 	gotoxy (4,6); cout << " Cedula del estudiante:.........................." << cedula[z] <<endl;
 	gotoxy (4,7); cout << " Nombre del estudiante:.........................." << nombre[z] <<endl;
 	setlocale(LC_CTYPE,"spanish");
-	gotoxy (4,8); cout << " Año de nacimiento del estudiante:..............." << year[z] <<endl;
+	gotoxy (4,8); cout << " AÃ±o de nacimiento del estudiante:..............." << year[z] <<endl;
 	setlocale( LC_ALL, "C" );
 	gotoxy (4,9); cout << " Edad del estudiante:............................" << Edad() <<endl; // 
 	gotoxy (4,10); cout << " Promedios de las materias del estudiante" <<endl;
@@ -196,8 +196,8 @@ void resultados()
 	gotoxy (4,14); cout << " Estudios sociales:.............................." << est[z] <<endl;
 	gotoxy (4,15); cout << " Promedio colegio del estudiante:................" << promediocole() <<endl;
 	gotoxy (4,16); cout << " Porcentaje criterio colegio del estudiante:....." << porcentajecc(); cout<<"%"<<endl;
-	gotoxy (4,17); cout << " Porcentaje Examen admision del estudiante:......" << porcentajead() cout<<"%"<<endl;
-	gotoxy (4,18); cout << " Promedio admision del estudiante:..............." << promedioad() cout<<"%"<<endl;
+	gotoxy (4,17); cout << " Porcentaje Examen admision del estudiante:......" << porcentajead(); cout<<"%"<<endl;
+	gotoxy (4,18); cout << " Promedio admision del estudiante:..............." << promedioad(); cout<<"%"<<endl;
     gotoxy (4,19); cout << " Calificacion del estudiante:	"; calificacion();	
 }
 
